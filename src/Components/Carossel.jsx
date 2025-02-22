@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import './Carossel.css';
+import '/styles/Carossel.css';
 
 const Carossel = ({ images, speed = 100, transitionDuration = 5000 }) => {
   const sliderRef = useRef(null);
