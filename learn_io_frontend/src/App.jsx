@@ -3,10 +3,10 @@ import React from "react";
 import Carossel from "./Components/Carossel.jsx"; // Correct import
 
 // Import local images
-import img1 from "/images/image1.jpg";
-import img2 from "/images/image2.jpg";
-import img3 from "/images/image3.jpg";
-import img4 from "/images/image4.jpg";
+import img1 from "./assets/image1.jpg";
+import img2 from "./assets/image2.jpg";
+import img3 from "./assets/image3.jpg";
+import img4 from "./assets/image4.jpg";
 
 function App() {
   const images = [img1, img2, img3, img4];
