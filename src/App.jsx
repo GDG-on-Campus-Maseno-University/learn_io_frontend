@@ -1,35 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from "react";
+import Carossel from "./Components/Carossel.jsx"; // Correct import
+
+// Import local images
+import img1 from "./assets/c1.jpg";
+import img2 from "./assets/c2.jpg";
+import img3 from "./assets/c3.jpg";
+import img4 from "./assets/c4.jpg";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const images = [img1, img2, img3, img4];
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div>
+      <h1>Image Slider</h1>
+      <Carossel images={images} speed={50} />
+    </div>
+  );
 }
 
-export default App
+export default App;
