@@ -1,3 +1,16 @@
+newfeaturebranch
+import NavBar from "./Navigation/navigation";
+import React from "react";
+
+function App(){
+  return( 
+    <div>
+      <NavBar/>
+    </div>
+  )
+}
+
+export default App;
 import React from "react";
 import Carossel from "./Components/Carossel.jsx"; // Correct import
 
@@ -19,3 +32,4 @@ function App() {
 }
 
 export default App;
+main
