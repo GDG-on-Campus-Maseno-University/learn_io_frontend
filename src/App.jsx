@@ -1,15 +1,15 @@
 import React from "react";
-import Carosalepage from "./carossel/CarosselPage"
-import Home from "./Components/Home";
-import Lesson from "./lessonpages/Lesson";
+import Footer from "./Components/Footer";
 
-
-function App(){
-  return(
-    <>
-      <Home />
-    </>
-  )
-}
+const App = () => {
+  return (
+    <div>
+      <h1>Footer</h1>
+      {/* Other components here */}
+      <Footer />
+    </div>
+  );
+};
 
 export default App;
+
