@@ -1,0 +1,86 @@
+/* Modal container styling */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #094E51; /* Updated background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Modal content styling */
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    max-width: 90%;
+    text-align: center;
+}
+
+/* Plain form container styling */
+.plain-form {
+    background-color: #094E51; /* Background color for the form */
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    max-width: 90%;
+    margin: 50px auto; /* Center the form horizontally */
+    color: white; /* Text color for better contrast */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Label styling */
+label {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    color: white; /* Label text color */
+}
+
+/* Select dropdown styling */
+select {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Buttons styling */
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #FFA500; /* Button background color */
+    color: white; /* Button text color */
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+}
+
+button[type="button"] {
+    background-color: #ccc;
+    color: black;
+}
+
+button:hover {
+    opacity: 0.9;
+}
