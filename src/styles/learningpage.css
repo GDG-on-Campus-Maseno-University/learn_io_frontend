@@ -1,0 +1,58 @@
+.tutorial-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  width: 100%;
+}
+
+.content-wrapper {
+  display: flex;
+  flex: 1;
+}
+
+.content-wrapper > aside {
+  width: 250px; 
+}
+
+.main-content {
+  flex: 1;
+  background-color: #074c50;
+  color: #ffffff;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.nav-buttons button {
+  background-color: #ffbf00;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-buttons .next-button{
+  margin-left: auto;
+}
+
+.nav-buttons button:hover {
+  background-color: #e6ac00;
+}
+
+@media (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column;
+  }
+}
