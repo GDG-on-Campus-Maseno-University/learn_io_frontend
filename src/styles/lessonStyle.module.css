@@ -1,0 +1,42 @@
+.overlay{
+  background: #094E51;
+  height: 100%;
+  width: 100%;
+}
+
+.lessonList {
+  margin: 100px 100px 0 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  justify-content: center;
+  padding: 5px;
+}
+
+.lesson {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  background: #D9D9D9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.name {
+  background-color: #FFA500;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  text-transform: lowercase;
+  font-family: "Poppins", sans-serif;
+}
+
