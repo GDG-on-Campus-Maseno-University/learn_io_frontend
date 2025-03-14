@@ -1,14 +1,13 @@
 import React from "react";
 
-function  Header(){
+function  Lesson(){
     return(
         <>
 
-        <h1>I am Header</h1>
+        <h1>Lessons</h1>
         </>
 
     )
 }
 
-
-export default Header;
+export default Lesson;

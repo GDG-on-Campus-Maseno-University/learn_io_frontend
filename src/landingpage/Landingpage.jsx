@@ -1,14 +1,14 @@
 import React from "react";
 
-function  Header(){
+function  Landing(){
     return(
         <>
 
-        <h1>I am Header</h1>
+        <h1>Landing</h1>
         </>
 
     )
 }
 
 
-export default Header;
+export default Landing;

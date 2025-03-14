@@ -1,14 +1,14 @@
 import React from "react";
 
-function  Header(){
+function  Login(){
     return(
         <>
 
-        <h1>I am Header</h1>
+        <h1>I am Login</h1>
         </>
 
     )
 }
 
 
-export default Header;
+export default Login;

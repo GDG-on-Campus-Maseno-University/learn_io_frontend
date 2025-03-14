@@ -1,6 +1,6 @@
 import React from "react";
 
-function  Footer(){
+function  ContactPage(){
     return(
         <>
 
@@ -11,4 +11,4 @@ function  Footer(){
 }
 
 
-export default Footer;
+export default ContactPage;

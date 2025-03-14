@@ -1,14 +1,14 @@
 import React from "react";
 
-function  Header(){
+function  Course(){
     return(
         <>
 
-        <h1>I am Header</h1>
+        <h1>I am Course</h1>
         </>
 
     )
 }
 
 
-export default Header;
+export default Course;
