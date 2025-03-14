@@ -1,0 +1,38 @@
+.learning-nav {
+    width: 100%;
+    background-color: #e2e2e2; /* Background matching your design */
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  .learning-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .learning-nav li {
+    margin: 0 1rem;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  /* Hover effect for nav items */
+  .learning-nav li:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .learning-nav ul {
+      flex-wrap: wrap;
+    }
+    .learning-nav li {
+      margin: 0.5rem;
+    }
+  }
+  
