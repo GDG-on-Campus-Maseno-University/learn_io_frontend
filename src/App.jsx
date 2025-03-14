@@ -1,5 +1,5 @@
 import React from "react";
-import Carossel from "./Components/Carossel.jsx"; // Correct import
+import Carossel from "./Components/Carossel.jsx"; 
 
 // Import local images
 import img1 from "./assets/c1.jpg";
