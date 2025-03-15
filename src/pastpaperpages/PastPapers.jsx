@@ -4,7 +4,7 @@ function  PastPapers(){
     return(
         <>
 
-        <h1>I am footer</h1>
+        <h1>PastPapers</h1>
         </>
 
     )

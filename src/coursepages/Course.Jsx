@@ -4,7 +4,7 @@ function  Course(){
     return(
         <>
 
-        <h1>I am footer</h1>
+        <h1>I am Course</h1>
         </>
 
     )

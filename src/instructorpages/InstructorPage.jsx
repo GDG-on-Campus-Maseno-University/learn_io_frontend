@@ -4,7 +4,7 @@ function  Instructor(){
     return(
         <>
 
-        <h1>I am footer</h1>
+        <h1>I am Instructor Page</h1>
         </>
 
     )
