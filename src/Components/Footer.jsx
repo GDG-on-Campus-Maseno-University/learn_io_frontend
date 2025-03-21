@@ -22,9 +22,10 @@ const styles = {
     color: "#fff",
     textAlign: "center",
     padding: "10px 0",
-    position: "absolute",
+    position: "fixed,",
     bottom: "0",
     width:"100%",
+    transform: "translate(-50%, -50%)",
   },
   buttonContainer: {
     display: "flex",

@@ -12,8 +12,8 @@ export default App;
 function App(){
   return(
     <>
-<Header/>
-<Carosalepage/>
+{/* <Header/>
+<Carosalepage/> */}
 <Footer/>
 
     </>
