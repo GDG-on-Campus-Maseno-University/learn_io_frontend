@@ -10,6 +10,9 @@ function App(){
   return(
     <>
     <InstructorPage />
+{/* <Header/>
+<Carosalepage/> */}
+<Footer/>
 
     </>
   )
