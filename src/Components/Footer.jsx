@@ -7,7 +7,7 @@ const Footer = () => {
       
       {/* Buttons in a row */}
       <div style={styles.buttonContainer}>
-        <button style={styles.button} onClick={() => alert("Join GDG clicked!")}>Join GDG </button>
+      <button style={styles.button} onClick={() => window.location.href = "https://gdg.community.dev/gdg-on-campus-maseno-university-kisumu-kenya/"}>Join GDG</button>
         <button style={styles.button} onClick={() => alert("Support Clicked!")}>Support</button>
         <button style={styles.button} onClick={() => alert("About Clicked!")}>About </button>
         <button style={styles.button} onClick={() => alert(" contactClicked!")}>Contact us</button>
