@@ -6,15 +6,14 @@ import LearningPage from "./coursepages/LearningPage";
 import Lesson from "./lessonpages/Lesson";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
+import InstructorPage from "./instructorpages/InstructorPage";
 
 
 export default App;
 function App(){
   return(
     <>
-<Header/>
-<Carosalepage/>
-<Footer/>
+    <InstructorPage />
 
     </>
   )
