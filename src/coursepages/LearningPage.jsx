@@ -1,14 +1,16 @@
 import React from "react";
-import SidePanel from "../coursepages/SidePanel";
-import LearningNavBar from "../coursepages/learningnav";
+import SidePanel from "./SidePanel";
 import "../styles/learningpage.css";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 
 function LearningTutorial() {
   return (
+    <>
+
+    <Header/>
+
     <div className="tutorial-container">
-      <header className="header">
-        <LearningNavBar />
-      </header>
 
       <div className="content-wrapper">
         <SidePanel />
@@ -27,6 +29,8 @@ function LearningTutorial() {
         </main>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 }
 

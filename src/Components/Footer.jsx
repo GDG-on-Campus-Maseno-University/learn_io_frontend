@@ -24,7 +24,7 @@ const styles = {
     padding: "10px 0",
     position: "absolute",
     bottom: "0",
-    width: "100%",
+    width:"100%",
   },
   buttonContainer: {
     display: "flex",

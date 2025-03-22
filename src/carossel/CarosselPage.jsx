@@ -12,7 +12,6 @@ function Carosalepage() {
 
   return (
     <div>
-      <h1>Image Slider</h1>
       <Carossel images={images} speed={50} />
     </div>
   );
