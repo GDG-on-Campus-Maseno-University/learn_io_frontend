@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './Header.css';
 import avatar from '../images/avatar.jpg'; // Import the image
 
@@ -16,7 +17,7 @@ function Header() {
                 <nav className="navbar">
                     <div className="menu">
                         <ul className="nav-list">
-                            <li><button onClick={() => handleNavigation("#home")}>Home</button></li>
+                            <li><button><Link to="/login" >Login</Link></button></li>
                             <li><button onClick={() => handleNavigation("#lessons")}>Lessons</button></li>
                             <li><button onClick={() => handleNavigation("#articles")}>Articles</button></li>
                             <li><button onClick={() => handleNavigation("#pastpapers")}>Pastpapers</button></li>
