@@ -13,7 +13,7 @@ const ResetPassword = () => {
 
     // Handle form submission
     const onSubmit = (data) => {
-        console.log('Form Data:', data);
+        console.log("Password reset data:", data);
     };
 
     return (
