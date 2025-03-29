@@ -3,6 +3,8 @@ import CourseCard from "./CourseCard";
 import CourseModal from "./CourseModal";
 import LessonModal from "./LessonModal";
 import "../styles/InstructorPage.css";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 const InstructorPage = () => {
   const [courses, setCourses] = useState([]);
@@ -60,6 +62,8 @@ const InstructorPage = () => {
   };
 
   return (
+    <>
+   <Header/>
     <div className="instructor-page">
       <h1>Instructor Dashboard</h1>
       <div className="action-buttons">
@@ -104,6 +108,8 @@ const InstructorPage = () => {
         />
       )}
     </div>
+    <Footer/>
+    </>
   );
 };
 

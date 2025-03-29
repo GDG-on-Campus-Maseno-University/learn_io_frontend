@@ -11,16 +11,20 @@ function Header() {
     return (
         <>
             <header className={styles.header}>
-                <div className={styles.profilephoto}>
-                    <img src={avatar} alt="profile" /> {/* Use the imported image */}
+                <div className={styles.profilephoto}> 
+                  <Link  to="/userprofile" > <img src={avatar} alt="profile" /> {/* Use the imported image */}</Link> 
                 </div>
                 <nav className={styles.navbar}>
                     <div className={styles.menu}>
                         <ul className={styles.navlist}>
                             <li><button><Link to="/login" >Login</Link></button></li>
-                            <li><button><Link to="/lesson" >Lesson</Link></button></li>
-                            <li><button onClick={() => handleNavigation("#articles")}>Articles</button></li>
-                            <li><button onClick={() => handleNavigation("#pastpapers")}>Pastpapers</button></li>
+                            <li><button><Link to="/lesson" >Course</Link></button></li>
+                            <li><button><Link to="/register" >Register</Link></button></li>
+                            <li><button><Link to="/articles" >Article</Link></button></li>
+                            <li><button ><Link to="/course" > lesson</Link></button></li>
+                            <li><button ><Link to="/instr" > Instructor</Link></button></li>
+                            <li><button ><Link to="/findpp" > FindPastPaer</Link></button></li>
+
                         </ul>
                     </div>
                 </nav>

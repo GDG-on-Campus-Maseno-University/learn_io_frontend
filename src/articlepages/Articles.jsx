@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import styled, { keyframes } from 'styled-components';
@@ -136,6 +138,8 @@ const Articles = () => {
   `;
 
   return (
+    <>
+    <Header/>
     <div className="article-container">
       <div className="article-card">
         <div className="article-header">
@@ -224,6 +228,8 @@ const Articles = () => {
         </form>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 };
 

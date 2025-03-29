@@ -1,4 +1,6 @@
 import { useForm } from "react-hook-form";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 import "../styles/Register.css"
 
 function Register() {
@@ -14,6 +16,8 @@ function Register() {
   };
 
   return (
+    <>
+    <Header/>
     <div className="register-container">
       <h2>Register</h2>
 
@@ -49,6 +53,8 @@ function Register() {
         <button type="submit">Register</button>
       </form>
     </div>
+    <Footer/>
+    </>
   );
 }
 
