@@ -1,15 +1,13 @@
 import React from "react";
-import Profile from "./profile/Profile";
-import Carosalepage from "./carossel/CarosselPage"
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
-import InstructorPage from "./instructorpages/InstructorPage";
+import Login from "./authentication/Login";
+import Home from "./homepage/HomePage";
+
 
 function App(){
   return(
-    <>
-    <Profile/>
-    </>
+      <>
+      <Home/>
+      </>
   )
 }
 
