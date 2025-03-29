@@ -1,5 +1,7 @@
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 import "./Login.css";
 
 function Login() {
@@ -14,6 +16,8 @@ function Login() {
   }
 
   return (
+    <>
+    <Header/>
     <div className="login-container">
       <h2>Login</h2>
       <form onSubmit={handleSubmit(onSubmit)} className="login-form">
@@ -46,6 +50,8 @@ function Login() {
         <button type="submit">Login</button>
       </form>
     </div>
+    <Footer/>
+    </>
   );
 }
 

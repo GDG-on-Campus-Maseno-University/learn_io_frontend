@@ -1,9 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./authentication/Login";
-import Articles from "./articlepages/Articles"
-import Home from "./homepage/Home";
-import Lesson from "./lessonpages/Lesson";
 import ResetPassword from "./authentication/ResetPassword.jsx";
 import Articles from "./articlepages/Articles"
 import Home from "./homepage/Home";
@@ -23,10 +20,7 @@ function Navs(){
                 <Route path="/"  element={<Home/>}/>
                 <Route path="/login"  element={<Login/>}/>
                 <Route path="/articles" element={<Articles/>}/>
-                <Route   path="/"  element={<Home/>}/>
-                <Route  path="/lesson"  element={<Lesson/>}/>
                 <Route path="/reset-password" element={<ResetPassword />} />
-                <Route  path="/login"  element={<Login/>}/>
                 <Route  path="/lesson"  element={<Lesson/>}/>
                 <Route path="/register"  element={<Register/>}/>
                 <Route path="/course"  element={<LearningTutorial/>}/>
