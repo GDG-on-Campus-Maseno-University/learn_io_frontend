@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import PropTypes from "prop-types";
-import "../styles/Carossel.css";
+import styles from "../styles/Carossel.module.css";
 
 const Carossel = ({ images, speed = 100, transitionDuration = 5000 }) => {
   const sliderRef = useRef(null);
@@ -45,17 +45,17 @@ const Carossel = ({ images, speed = 100, transitionDuration = 5000 }) => {
   };
 
   return (
-    <div className="carousel-wrapper">
-      <button className="left-arrow" onClick={() => handleManualScroll("left")}>
+    <div className={styles.carouselwrapper}>
+      <button className={styles.leftarrow} onClick={() => handleManualScroll("left")}>
         &#8249;
       </button>
-      <div ref={sliderRef} className="slider-container">
-        {images.concat(images).map((image, index) => (
+      <div ref={sliderRef} className={styles.slidercontainer}>
+        {(images || []).concat(images || []).map((image, index) => (
           <img
             key={index}
             src={image}
             alt={`Slide ${index}`}
-            className="slider-image"
+            className={styles.sliderimage}
             style={{
               transition: `transform ${transitionDuration}ms ease-in-out`,
             }} // Add smooth transition
@@ -63,7 +63,7 @@ const Carossel = ({ images, speed = 100, transitionDuration = 5000 }) => {
         ))}
       </div>
       <button
-        className="right-arrow"
+        className={styles.rightarrow}
         onClick={() => handleManualScroll("right")}
       >
         &#8250;

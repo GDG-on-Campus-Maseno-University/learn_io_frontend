@@ -1,4 +1,6 @@
 import React from "react";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 import styles from "../styles/lessonStyle.module.css";
 
 const lessons = [
@@ -14,6 +16,8 @@ const lessons = [
 
 function  Lesson(){
     return(
+      <>
+      <Header/>
         <div className={styles.overlay}>
             <div className={styles.lessonList}>
                 {lessons.map((lesson, index) => (
@@ -24,6 +28,8 @@ function  Lesson(){
                 ))}
             </div>
         </div>
+        <Footer/>
+        </>
     )
 }
 

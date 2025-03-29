@@ -1,7 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./authentication/Login";
-import Home from "./homepage/HomePage";
+import Home from "./homepage/Home";
+import Lesson from "./lessonpages/Lesson";
 
 
 function Navs(){
@@ -11,6 +12,7 @@ function Navs(){
             <Routes>
                 <Route   path="/"  element={<Home/>}/>
                 <Route  path="/login"  element={<Login/>}/>
+                <Route  path="/lesson"  element={<Lesson/>}/>
             </Routes>
         </Router>
     )
