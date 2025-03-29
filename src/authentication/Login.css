@@ -1,0 +1,128 @@
+/* Modern Dark Theme Login Form */
+body {
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #e0e0e0;
+  }
+  
+  .login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border: 1px solid #333;
+  }
+  
+  h2 {
+    margin-bottom: 25px;
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 600;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  label {
+    text-align: left;
+    font-weight: 500;
+    color: #b0b0b0;
+    font-size: 14px;
+  }
+  
+  input {
+    padding: 14px;
+    background-color: #2d2d2d;
+    border: 1px solid #444;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #ffffff;
+    transition: all 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+  }
+  
+  .error {
+    color: #ff4d4d;
+    font-size: 14px;
+    margin-top: -10px;
+    text-align: left;
+  }
+  
+  button {
+    padding: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0069d9;
+    transform: translateY(-1px);
+  }
+  
+  /* Additional Styles for Better UX */
+  .forgot-password {
+    text-align: right;
+    margin-top: -10px;
+  }
+  
+  .forgot-password a {
+    color: #7a9eff;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 500px) {
+    .login-container {
+      width: 90%;
+      padding: 30px;
+    }
+    
+    body {
+      padding: 20px;
+    }
+  }
+  .forgot-password-link {
+    text-align: right;
+    margin: -10px 0 15px 0;
+  }
+  
+  .forgot-password-link a {
+    color: #7a9eff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.2s ease;
+  }
+  
+  .forgot-password-link a:hover {
+    color: #5d8aff;
+    text-decoration: underline;
+  }

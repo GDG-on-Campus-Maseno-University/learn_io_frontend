@@ -8,7 +8,7 @@ function Home(){
         {/* <Carossel/> */}
         <Footer/>
         </>
-    )
+    );
 }
 
 export default Home;
