@@ -1,0 +1,144 @@
+body {
+    background-color: #094E51;
+    color: #E5E7EB;
+    font-family: Arial, sans-serif;
+  }
+  
+  .profile-container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #2C3E50;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+  }
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .profile-picture-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #3498DB;
+  }
+  
+  .profile-picture-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .change-photo-container {
+    margin-top: 10px;
+  }
+  
+  .profile-picture-upload {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #34495E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-picture-input {
+    display: none;
+  }
+  
+  .change-photo-btn {
+    background-color: #FFA500;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .change-photo-btn:hover {
+    background-color: #2980B9;
+  }
+  
+  .profile-actions {
+    display: flex;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 10px;
+  }
+  
+  .btn-edit {
+    background-color: #FFA500;
+    color: white;
+  }
+  
+  .btn-save {
+    background-color: #2ECC71;
+    color: white;
+  }
+  
+  .btn-cancel {
+    background-color: #E74C3C;
+    color: white;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  
+  .form-columns {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .form-column {
+    flex: 1;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 8px;
+    color: #BDC3C7;
+    font-weight: bold;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 12px;
+    background-color: #34495E;
+    border: 1px solid #2C3E50;
+    border-radius: 6px;
+    color: #ECF0F1;
+  }
+  
+  .form-input:disabled {
+    background-color: #2C3E50;
+    opacity: 0.7;
+  }
+  
+  .error-message {
+    color: #E74C3C;
+    font-size: 0.8rem;
+    margin-top: 5px;
+  }
