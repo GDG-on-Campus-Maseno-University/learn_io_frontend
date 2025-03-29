@@ -3,40 +3,40 @@
     align-items: center;
 }
 
-.profile-photo img {
+.profilephoto img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     margin-right: 20px;
 }
 
-.nav-list {
+.navlist {
     display: flex;
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.nav-list li {
+.navlist li {
     margin-right: 100px;
 }
 
-.nav-list li a {
+.navlist li a {
     text-decoration: none;
     color: rgb(240, 219, 30);
     transition: color 0.3s ease;
 }
 
-.nav-list li a:hover {
+.navlist li a:hover {
     color: rgb(255, 255, 255);
 }
 
-.nav-list li a.active {
+.navlist li a.active {
     font-weight: bold;
     color: rgb(255, 255, 255);
 }
 
-.nav-list li button {
+.navlist li button {
     background: none;
     border: none;
     color: rgb(240, 219, 30);
@@ -45,15 +45,15 @@
     transition: color 0.3s ease;
 }
 
-.nav-list li button:hover {
+.navlist li button:hover {
     color: rgb(255, 255, 255);
 }
 
-.nav-list li button:focus {
+.navlist li button:focus {
     outline: none;
 }
 
-.nav-list li button.active {
+.navlist li button.active {
     font-weight: bold;
     color: rgb(255, 255, 255);
 }
